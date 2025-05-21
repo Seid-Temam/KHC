@@ -167,10 +167,20 @@
     display: none;
   }
   .stats{
-    margin-top: -25rem;
+    margin-top: -10rem;
   }
   .hero{
     height: 90vh;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  .hero-desc{
+    font-size: 2.5rem;
+  }
+  .btn-primary{
+    margin-top: 5rem;
+    font-size: 2.5em;
   }
   .service-txtbox{
     width: 96%;
