@@ -1,0 +1,203 @@
+/* 
+@media (min-width: 2000px) and (max-width: 2100px){
+  html{
+    font-size: 70%;
+    
+  }
+  header{
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 1920px) {
+  header{
+    background-color: red;
+  }
+} */
+
+@media (max-width: 2300px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 2100px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1930px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 1727px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
+@media (max-width: 1504px) {
+  /* .meet {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rem;
+  } */
+  .conta {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .conta {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 1348px) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+/* @media (max-width: 1920px) {
+  html{
+    font-size: 62.5%;
+  }
+} */
+
+@media (min-width: 2300px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 1910px) {
+  .stats {
+    margin-top: -10rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .meet {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20rem;
+  }
+  .conta {
+    width: 350px;
+    height: 350px;
+  }
+  .contact-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .map{
+    width: 100%;
+  }
+  /* .footer-container{
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .footer-section {
+    justify-self: flex-end;
+  }
+  .footer-section:last-of-type {
+    justify-self: center;
+  }
+}
+
+@media (max-width: 894px) {
+  .service-imgbox {
+    display: none;
+  }
+  .hero-imgbox {
+    display: none;
+  }
+  .hero-textbox {
+    text-align: center;
+    width: 100%;
+  }
+  .meet {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 6rem;
+  }
+  .about-pillars {
+    flex-direction: column;
+    max-width: 70%;
+    margin-inline: auto;
+  }
+  .about-pillars > div {
+    margin-block: 3rem;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: 2rem;
+    row-gap: 4rem;
+    width: 96%;
+    margin-inline: auto;
+  }
+  .footer-section:nth-of-type(1) {
+    justify-self: flex-start;
+  }
+  .footer-section:nth-of-type(2) {
+    justify-self: flex-start;
+  }
+  .footer-section:nth-of-type(3) {
+    justify-self: flex-start;
+  }
+  .footer-section:last-of-type {
+    justify-self: flex-start;
+  }
+  header nav {
+    display: none;
+  }
+  .mobile-menu{
+    font-size: 6rem;
+    color: #fff;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  ion-icon[name="close-outline"]{
+    display: none;
+  }
+  .stats{
+    margin-top: -25rem;
+  }
+  .hero{
+    height: 90vh;
+  }
+  .service-txtbox{
+    width: 96%;
+    h2{
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    ul li{
+      margin-block: 1rem;
+    }
+  }
+
+  .about-pillars {
+    width: 100%;
+  }
+  .about-pillars {
+    max-width: 90%;
+  }
+
+  .contact-us{
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 410px){
+  .stats p{
+    font-size: 1.5rem;
+    padding-inline: 0;
+  }
+}

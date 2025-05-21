@@ -4,15 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kality Health Center</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="./styles/queries.css" />
   </head>
   <body>
     <header>
@@ -28,6 +22,10 @@
             <li><a href="">FAQ</a></li>
           </ul>
         </nav>
+        <div class="mobile-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
       </div>
     </header>
     <section class="hero">
@@ -47,8 +45,7 @@
           </div>
         </div>
 
-        <div class="hero-imgbox">
-        </div>
+        <div class="hero-imgbox"></div>
       </div>
     </section>
     <div class="stats">
@@ -235,6 +232,7 @@
                 y="0"
                 width="170"
                 height="170"
+                class="bloimage"
                 clip-path="url(#blobClip)"
                 preserveAspectRatio="xMidYMid slice"
               />
@@ -611,10 +609,11 @@
             <ul class="social-links">
               <li><ion-icon name="logo-youtube"></ion-icon></li>
               <li><ion-icon name="logo-instagram"></ion-icon></li>
-              <li><i class="fa-brands fa-x-twitter"></i></li>
+              <li><ion-icon name="logo-twitter"></ion-icon></li>
             </ul>
           </div>
         </div>
+        <div class="year">&#169; 2025</div>
       </footer>
     </section>
 

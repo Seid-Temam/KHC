@@ -46,6 +46,9 @@ nav ul a::before {
 nav ul a:hover::before {
   width: 100%;
 }
+.mobile-menu{
+  display: none;
+}
 
 .hero {
   background-color: #444;
@@ -80,7 +83,7 @@ nav ul a:hover::before {
 }
 
 .hero-desc {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-block: 2rem;
 }
 
@@ -110,6 +113,7 @@ nav ul a:hover::before {
   background: transparent;
   backdrop-filter: blur(60px);
   max-width: 60rem;
+  width: 90%;
   margin-inline: auto;
   padding: 1rem;
   margin-top: -15rem;
@@ -131,7 +135,7 @@ nav ul a:hover::before {
     rgba(128, 255, 128, 0.7) 0%,
     rgba(153, 255, 153, 0.4) 100%
   );
-  
+
   margin: 2rem;
   border-radius: 3rem;
 }
@@ -154,6 +158,9 @@ nav ul a:hover::before {
   }
   gap: 3rem;
 }
+.about-pillars li ion-icon {
+  font-size: 2rem;
+}
 .mission,
 .vision,
 .values {
@@ -169,7 +176,7 @@ nav ul a:hover::before {
     border-top: 1px solid #000;
   }
   li {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     display: flex;
     gap: 1rem;
   }
@@ -208,6 +215,7 @@ nav ul a:hover::before {
   justify-content: center;
   align-items: center;
   max-width: 120rem;
+  width: 96%;
   margin-inline: auto;
 
   h2 {
@@ -217,13 +225,13 @@ nav ul a:hover::before {
 .service-txtbox {
   width: 60%;
   ul {
-    font-size: 1.6rem;
     text-align: left;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 
     li {
+      font-size: 1.8rem;
       display: flex;
       gap: 1rem;
     }
@@ -262,7 +270,7 @@ nav ul a:hover::before {
 .conta {
   width: 500px;
   height: 500px;
-
+  margin-inline: auto;
   h3 {
     text-align: center;
   }
@@ -270,7 +278,8 @@ nav ul a:hover::before {
 .meet {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-inline: auto;
+  /* max-width: 130rem;
+  margin-inline: auto; */
   row-gap: 6rem;
 }
 
@@ -469,4 +478,16 @@ footer {
 }
 .footer-section:last-of-type {
   justify-self: end;
+}
+
+.footer-container{
+  margin-top: 10rem;
+  padding-block: 5rem;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.year{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
 }
