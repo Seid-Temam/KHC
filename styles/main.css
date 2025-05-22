@@ -46,7 +46,7 @@ nav ul a::before {
 nav ul a:hover::before {
   width: 100%;
 }
-.mobile-menu{
+.mobile-menu {
   display: none;
 }
 
@@ -69,11 +69,13 @@ nav ul a:hover::before {
   }
   40% {
     background-image: url(../imgs/slider2.jpg);
-    background-color: #aaa;
+    background-color: #bbb;
     background-blend-mode: multiply;
   }
   80% {
     background-image: url(../imgs/slider3.jpg);
+    background-color: #ddd;
+    background-blend-mode: multiply;
   }
 }
 
@@ -480,13 +482,13 @@ footer {
   justify-self: end;
 }
 
-.footer-container{
+.footer-container {
   margin-top: 10rem;
   padding-block: 5rem;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
 }
-.year{
+.year {
   font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
