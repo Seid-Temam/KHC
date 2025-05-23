@@ -239,14 +239,6 @@ nav ul a:hover::before {
     }
   }
 }
-/* .service-imgbox {
-  background-image: url("../imgs/services2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  align-self: stretch;
-  width: 40%;
-} */
 
 .service-imgbox {
   width: 40%;
@@ -280,8 +272,6 @@ nav ul a:hover::before {
 .meet {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* max-width: 130rem;
-  margin-inline: auto; */
   row-gap: 6rem;
 }
 
@@ -402,8 +392,6 @@ textarea {
   margin-block: 1rem;
   padding: 1rem;
   font-size: 1.6rem;
-  /* background-color: #444; */
-  /* color: #fff; */
 }
 .contact-us textarea {
   resize: none;
@@ -492,4 +480,8 @@ footer {
   font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
+}
+.members{
+  text-align: center;
+  margin-block: 4rem;
 }

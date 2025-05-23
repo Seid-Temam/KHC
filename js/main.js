@@ -20,13 +20,9 @@ const accordions = document.querySelectorAll(".accordion");
 
 accordions.forEach((accord) => {
   accord.addEventListener("click", () => {
-    // Close all accordions
     accordions.forEach((sub) => {
       sub.classList.remove("active");
     });
     accord.classList.add("active");
-
-    // Toggle the clicked one
-    // accord.classList.toggle("active");
-  });
+    });
 });
